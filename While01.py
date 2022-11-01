@@ -1,3 +1,4 @@
+
 def main(s):
 
     """
@@ -6,6 +7,7 @@ def main(s):
         s: str
     Returns:
         int: return answer
+        
     """
 
     i = 0
@@ -18,3 +20,4 @@ def main(s):
         
     count = int(count)
     return count
+
