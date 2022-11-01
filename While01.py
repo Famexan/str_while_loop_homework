@@ -14,6 +14,8 @@ def main(s):
             count += 1
 
     if count == len(s):
-        s == int(s)
+        s = int(s)
         return s
+
+
 
