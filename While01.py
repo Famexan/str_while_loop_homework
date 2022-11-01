@@ -18,6 +18,7 @@ def main(s):
             count += s[i]
         i += 1
         
-    count = int(count)
+    count = len(count)
+    
     return count
 
