@@ -20,5 +20,3 @@ def main(s):
     count = len(count)
     
     return count
-
-print(main(""))
