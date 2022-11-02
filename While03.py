@@ -1,3 +1,4 @@
+import string
 def main(s):
     """
     A variable of type str is given. Find how many punctuations it contains and return.
@@ -5,5 +6,17 @@ def main(s):
         s: str
     Returns:
         int: return answer
+
     """
-    return
+
+    i = 0
+    count = ""
+
+    while i < len(s):
+        if i in string.punctuation:
+            count += s[i]
+        i += 1
+        
+    count = len(count)
+    
+    return count
