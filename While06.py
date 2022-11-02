@@ -13,10 +13,12 @@ def main(s):
     pun = '''aeiou'''
 
     while i < len(s):
-        if s[i] in pun:
+        if s[i].lower() in pun:
             count += s[i]
         i += 1
         
     count = len(count)
     
     return count
+
+print(main(""))
