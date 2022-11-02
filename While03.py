@@ -1,4 +1,4 @@
-import string
+
 def main(s):
     """
     A variable of type str is given. Find how many punctuations it contains and return.
@@ -11,10 +11,10 @@ def main(s):
 
     i = 0
     count = ""
-    pun = '''!()-[]{};:'"\,<>./?@#$%^&*_~'''
+    pun = '''!()-[]}{;:'"\,<>./?@#$%^&*_~'''
 
     while i < len(s):
-        if i in pun:
+        if s[i] in pun:
             count += s[i]
         i += 1
         
