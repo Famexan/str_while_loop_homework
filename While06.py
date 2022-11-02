@@ -8,6 +8,7 @@ def main(s):
     Returns:
         int: return answer
     """
+    
     i = 0
     count = ""
     pun = '''aeiou'''
