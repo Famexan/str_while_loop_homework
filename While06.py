@@ -8,13 +8,13 @@ def main(s):
     Returns:
         int: return answer
     """
-    
+
     i = 0
     count = ""
     pun = '''aeiou'''
 
     while i < len(s):
-        if s[i].lower() in pun:
+        if s[i].lower() not in pun:
             count += s[i]
         i += 1
         
