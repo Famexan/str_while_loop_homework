@@ -1,5 +1,6 @@
 def main(s):
     """
+    undosh
     A variable of type str is given. Find and return how many consonant letters there are.
     Args:
         s: str
@@ -7,3 +8,15 @@ def main(s):
     Returns:
         int: return answer
     """
+    i = 0
+    count = ""
+    pun = '''aeiou'''
+
+    while i < len(s):
+        if s[i] in pun:
+            count += s[i]
+        i += 1
+        
+    count = len(count)
+    
+    return count
