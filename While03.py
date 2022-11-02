@@ -11,9 +11,10 @@ def main(s):
 
     i = 0
     count = ""
+    pun = '''!()-[]{};:'"\,<>./?@#$%^&*_~'''
 
     while i < len(s):
-        if i in string.punctuation:
+        if i in pun:
             count += s[i]
         i += 1
         
